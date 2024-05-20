@@ -1,0 +1,53 @@
+How to use a repo without giving username password:-
+
+git remote set-url origin https://tokenaccesscode@github.com/username/repo_name
+
+How to initialise git:
+
+git init
+
+How to check status :
+
+git status
+
+How to add files :
+
+git add <filename> 
+
+git add file1 file2 file3
+
+git add .
+
+How to commit changes :
+
+git commit -m "changes to be committed"
+
+How to push changes :
+
+git push origin master
+
+How to config git :
+
+git config --global user.name  "your username"
+git config --global user.email "your email"
+
+How to check git branch you are in :
+
+git branch
+
+How to know which files are being tracked :
+
+git ls-files
+
+How to remove a file from stage area :
+
+git restore --staged <file_name>
+
+How to remove file that was unnecessary committed:
+
+git revert 882ad02
+
+Git branch -M is a Git command used to rename an existing branch. 
+It is a powerful tool that allows you to change the name of a branch without affecting the commit history. :
+
+git branch -M <branch name>
